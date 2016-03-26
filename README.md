@@ -9,7 +9,9 @@ Just to show:
 
 ## Questions:
 
-How should logrus config be centralized (should it?)
+- How should logrus config be centralized (should it?)
+- Fix the final output of pb (bad spacing)
+- pb's rate calculation is always global
 
 ## Notes
 Simple `pb` is vendored in through gopkg.in. It's README says: `go get gopkg.in/cheggaaa/pb.v1`

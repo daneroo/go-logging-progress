@@ -56,7 +56,7 @@ func main() {
 		// this could be based on transferred bytes or similar
 		for i := 0; i <= mediumTotal; i++ {
 			barProgress1(i)
-			time.Sleep(time.Millisecond * 15)
+			time.Sleep(time.Millisecond * 100)
 		}
 		wg.Done()
 	}()
